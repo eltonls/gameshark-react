@@ -1,6 +1,6 @@
 .search-form {
   @apply text-white;
-  @apply w-96;
+  @apply w-3/4 md:w-96;
   @apply text-center;
   @apply mb-5;
 }

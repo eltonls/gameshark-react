@@ -1,5 +1,5 @@
 .game-list {
-  @apply flex flex-row flex-wrap justify-center flex-grow;
+  @apply flex flex-col md:flex-row flex-wrap justify-center flex-grow;
   @apply p-5;
 }
 

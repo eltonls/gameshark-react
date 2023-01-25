@@ -1,6 +1,6 @@
 .game-card {
   @apply p-5;
-  @apply w-1/4 h-max;
+  @apply md:w-1/4 h-max;
   @apply rounded;
   @apply bg-gray-700;
   @apply text-white;
