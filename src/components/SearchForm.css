@@ -1,0 +1,30 @@
+.search-form {
+  @apply text-white;
+  @apply w-96;
+  @apply text-center;
+  @apply mb-5;
+}
+
+.search-form__label {
+  @apply text-2xl font-bold tracking-wider;
+  @apply mb-5;
+}
+
+.search-form__input-wrapper {
+  @apply relative;
+  @apply mt-2;
+  @apply w-full;
+  @apply rounded border border-slate-500;
+  @apply drop-shadow-md;
+  @apply bg-gray-600;
+}
+
+.search-form__input {
+  @apply w-full;
+  @apply py-2 px-5;
+  @apply bg-transparent;
+}
+
+.search-form__btn {
+  @apply absolute top-3 right-2;
+}

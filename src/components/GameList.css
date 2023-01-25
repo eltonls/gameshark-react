@@ -1,0 +1,8 @@
+.game-list {
+  @apply flex flex-row flex-wrap justify-center flex-grow;
+  @apply p-5;
+}
+
+.game-list__empty {
+  @apply text-2xl text-white;
+}

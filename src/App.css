@@ -1,0 +1,22 @@
+.App {
+  @apply p-2;
+  @apply flex flex-col items-center;
+  @apply bg-gray-900;
+}
+
+.load {
+  @apply text-2xl text-white;
+  @apply rounded-full;
+}
+
+.btn {
+  @apply inline;
+  @apply rounded;
+  @apply px-5 py-2;
+}
+
+.btn--buy {
+  @apply text-center;
+  @apply mt-2;
+  @apply bg-gray-800;
+}

@@ -1,0 +1,77 @@
+.game-card {
+  @apply p-5;
+  @apply w-1/4 h-max;
+  @apply rounded;
+  @apply bg-gray-700;
+  @apply text-white;
+  @apply flex flex-col justify-between flex-grow;
+  @apply overflow-hidden;
+  @apply drop-shadow-lg;
+  @apply m-2;
+}
+
+.game-card:hover {
+  @apply -translate-y-1;
+}
+
+.game-card__header {
+  @apply relative;
+  /* @apply w-2/5 h-full; */
+  @apply w-full h-3/5;
+}
+
+.game-card__header::after {
+  content: "";
+    clear: both;
+  display: table;
+}
+
+.heading-tertiary {
+  @apply absolute left-0 bottom-4;
+  @apply pl-2;
+  @apply text-base text-white font-bold tracking-wider;
+  @apply z-10;
+  @apply bg-black bg-opacity-70;
+}
+
+.game-card__info {
+  @apply font-bold;
+}
+
+.game-card__info:not(:last-child) {
+  @apply mb-2;
+}
+
+.game-card__info span {
+  @apply font-normal;
+}
+
+.game-card__prices {
+  @apply flex flex-row;
+}
+
+.game-card__prices p {
+  @apply m-1;
+  @apply text-base;
+}
+
+.game-card__price--normal {
+  @apply opacity-50;
+}
+
+.game-card__price--percent {
+  @apply bg-green-700;
+  @apply text-white text-xs;
+  @apply rounded;
+  @apply p-1;
+}
+
+.game-card__rating--meta {
+  @apply text-yellow-300;
+  @apply font-bold;
+}
+
+.game-card__rating--steam {
+  @apply text-teal-400;
+  @apply font-bold;
+}
